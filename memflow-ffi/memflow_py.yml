@@ -1,0 +1,11 @@
+name: memflow_py
+smart_ptr_type: std::shared_ptr
+modules:
+- name: Memflow
+  struct_repr: [writeToJsonString]
+  namespace: [memflow_py]
+  source_locations:
+  classes: ALL
+  variables: ALL
+  free_functions: ALL
+  enums: ALL
